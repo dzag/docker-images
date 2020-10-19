@@ -1,0 +1,9 @@
+# Liquibase Docker Images
+
+Docker hub: https://hub.docker.com/r/dzag/liquibase
+
+See the usage here: https://github.com/liquibase/docker
+
+Differences:
+- Only contains mysql connector
+- Liquibase versions tagged
