@@ -1,7 +1,7 @@
-FROM dzag/bazel-docker:2004.4.0
+FROM dzag/bazel-docker:2004.5.0
 
-ARG AWSCLI_VERSION=2.2.5
-ARG AWSCLI_SHA256=cc6b0541600d9d76458a107fcf2c7f7d68438e9b994f0a90ac8d6900a7b02d89
+ARG AWSCLI_VERSION=2.2.35
+ARG AWSCLI_SHA256=bfdd14ffaa5237a90949ca24a1f8556fa54a47db893546e83b6a45925c9c1be3
 
 RUN wget -O awscliv2.zip "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-${AWSCLI_VERSION}.zip" \
   && echo "$AWSCLI_SHA256 awscliv2.zip" | sha256sum -c - \
